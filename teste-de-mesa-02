@@ -1,0 +1,13 @@
+int a = 2;
+int[] v = new int[6]; //garante que v5 exista
+
+a = 2;
+while (a < 6)
+{
+    v[a] = 10 * a;
+    a += 1;
+}
+
+for (int i = 2; i < v.Length; i++) 
+
+    Console.WriteLine(v[i]);
