@@ -1,14 +1,13 @@
 int a = 7;
-int b = a - 6;  // b = 1
-
-int[] v = new int[a];  
+int b = a - 6;
+int[] v = new int[10];
 
 while (b < a)
 {
-    Console.WriteLine(b);
-    v[b] = b + a;      
-    b = b + 2;         
-
+    v[b] = b + a;
+    b = b + 2;
 }
 
-
+Console.WriteLine("v[1] = " + v[1]);
+Console.WriteLine("v[3] = " + v[3]);
+Console.WriteLine("v[5] = " + v[5]);
